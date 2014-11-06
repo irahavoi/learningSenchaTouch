@@ -1,0 +1,1 @@
+Ideas and examples I found useful while playing with Sencha Touch.
