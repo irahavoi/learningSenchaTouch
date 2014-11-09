@@ -1,0 +1,14 @@
+//searching for a container:
+var container = Ext.ComponentQUery.query("myContainer")[0];
+	
+//Adding Children:
+container.add({..});
+	
+//Getting a component from container:
+container.getComponent(0);
+container.getComponent("myComponentId");
+container.child("#myComponentId"); //Returns a first match
+container.down("#myComponentId"); //Returns a first match
+container.query("#myComponentId"); //Returns an array (empty if nothing is found)
+
+Ext.ComponentQuery is used for searching for components.
