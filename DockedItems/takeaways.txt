@@ -1,0 +1,1 @@
+* The order in which you place docked items will affect the amount of screen space they have.
