@@ -12,3 +12,5 @@ container.down("#myComponentId"); //Returns a first match
 container.query("#myComponentId"); //Returns an array (empty if nothing is found)
 
 Ext.ComponentQuery is used for searching for components.
+
+Ext.anims <-- Animations
