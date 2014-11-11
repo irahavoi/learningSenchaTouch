@@ -10,15 +10,29 @@ Ext.application({
 		var toolbarTop = {
 			xtype : 'toolbar',
 			docked : 'top',
-			title : 'User admin',
 			items : [
 			{
 				type : 'button',
-				text : 'Submit'
+				text : 'Goodies'
 			},
 			{
-				type : 'button',
-				text : 'Goodies'
+				xtype : 'spacer'
+			},
+			{ 
+				xtype : 'textfield',
+				width : 200
+			},
+			{
+				xtype : 'button', 
+				iconCls : 'search',
+				ui : 'plain',
+				iconMask : true
+			},
+			{
+				xtype : 'button',
+				iconCls : 'user',
+				iconMask : true
+
 			}
 
 			]
@@ -27,7 +41,37 @@ Ext.application({
 		var toolbarBottom = {
 			xtype : 'toolbar',
 			docked : 'bottom',
-			title : 'TODO: add some buttons'
+			items : [
+			{
+				type : 'button',
+				text : '<< Left'
+			},
+			{ 
+			 xtype : 'spacer'
+			},
+			{
+			 xtype : 'segmentedbutton', 
+			 items : [
+				 {
+				 	text : 'Yesterday'
+				 },
+				 {
+				 	text : 'Today'
+				 },
+				 {
+				 	text : 'Tomorrow'
+				 }
+			 ]
+			 },
+			 {
+			 xtype : 'spacer' 
+			 },
+			{
+				type : 'button',
+				text : 'Right >>'
+			}
+
+			]
 		};
 
 		Ext.create('Ext.Panel', {
