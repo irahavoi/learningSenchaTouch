@@ -1,1 +1,4 @@
 * The order in which you place docked items will affect the amount of screen space they have.
+* Button's iconAlign property can be set to left, right, top, bottom
+* See more on css masks <--  www.webkit.org/blog/181/css-masks/
+* Blog on Sencha's goodies <-- http://www.vinylfox.com/

@@ -12,8 +12,16 @@ Ext.application({
 			docked : 'top',
 			items : [
 			{
-				type : 'button',
-				text : 'Goodies'
+				text : 'delete',
+				iconCls : 'delete',
+				iconAlign : 'left',
+				ui : 'back'
+			},
+			{
+				text : 'organize',
+				iconCls : 'organize',
+				iconAlign : 'right',
+				ui : 'decline'
 			},
 			{
 				xtype : 'spacer'
@@ -43,8 +51,15 @@ Ext.application({
 			docked : 'bottom',
 			items : [
 			{
-				type : 'button',
-				text : '<< Left'
+				iconCls : 'refresh',
+				iconAlign : 'top',
+				ui : 'plain'
+			},
+			{
+				text : 'search',
+				iconCls : 'search',
+				ui : 'drastic',
+				iconAlign : 'bottom'
 			},
 			{ 
 			 xtype : 'spacer'
@@ -76,9 +91,34 @@ Ext.application({
 
 		Ext.create('Ext.Panel', {
 			fullscreen : true,
-			style : 'background: #CCF;',
-			html : 'Full screen panel',
-			items : [toolbarTop, toolbarBottom]
+			defaultType : 'button',
+			defaults : {
+				iconMask : true
+			},
+			layout : {
+				type : 'hbox',
+				pack : 'center',
+				align: 'center'
+			},
+			items : [
+				toolbarTop, 
+				toolbarBottom,
+				{ 
+				 text : 'generic',
+				 width : 150
+				},{
+				 text : 'compose', 
+				 iconCls : 'compose',
+				 iconAlign : 'right',
+				 ui : 'action',
+				 width : 150
+				},{
+				 text : 'star',
+				 iconCls : 'star',
+				 ui : 'confirm',
+				 width : 150
+				}
+			]
 		});	 	
 	 		
 	 }
