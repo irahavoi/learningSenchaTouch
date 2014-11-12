@@ -1,7 +1,9 @@
 
 /** global Ext */
 Ext.require([ 
- 'Ext.data.Model'
+ 'Ext.data.Model',
+ 'Ext.data.Store',
+ 'Ext.List'
 ]);
 
 Ext.application({ 
@@ -19,9 +21,8 @@ Ext.application({
 		var localStore = Ext.create('Ext.data.Store', { 
 			model : 'MyModel', 
 		 	data : [ 
-		 		{ name : 'Mitchell Simoens', twitter : 'SenchaMitch' },
-		 		{ name : 'Jay Garcia', twitter : 'ModusJeasus' },
-		 		{ name : 'Anthony De Moss', twitter : 'ademoss1' }
+		 		{ name : 'Illia Rahavoi', twitter : 'elijahrium' },
+		 		{ name : 'Nadzeya Rahavaya', twitter : 'egocenter' }
 		 	]
 		});
 

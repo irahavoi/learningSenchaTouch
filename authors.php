@@ -3,16 +3,11 @@
  "totalNumber": 3,
  "authors": [
  {
- "name": "Mitchell Simoens",
- "twitter": "msims84"
+ "name": "Illia Rahavoi",
+ "twitter": "elijahrium"
  },
  {
- "name": "Jay Garcia",
- "twitter": "_jdg"
- },
- {
- "name": "Anthony De Moss",
- "twitter": "ademoss1"
- }
- ]
+ "name": "Nadzeya Rahavaya",
+ "twitter": "egocenter"
+ }]
 }
