@@ -43,7 +43,7 @@ Ext.application({
 		Ext.create("Ext.List", {
 		    fullscreen: true,
 		    store: remoteStore,
-		    itemTpl: "{name}, ({twitter})"
+		    itemTpl: '<b>{name}</b>, (<a href="http://www.twitter.com/{twitter}" target="_blank">{twitter}</a>)'
 		});
 	} 
 });
