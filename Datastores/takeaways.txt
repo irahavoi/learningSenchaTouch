@@ -1,0 +1,12 @@
+* All proxies, except the default Memory proxy, load data asynchronously,
+* Proxies are used in the stores to load data (e.g. Ext.data.proxy.Ajax).
+* Types of proxies: Ajax, Direct, JsonP, LocalStorage, Memory.
+  so you need to use a callback or an event to take action when a store loads.
+* Use Ext.data.reader.Json to decode json responses (preferred)
+* Use Ext.data.reader.Xml to decode xml responses
+* Writers are used  to include new, edited, or destroyed records in the sync request from the store.
+  You execute a sync request by executing the sync method on the store, and if there are
+  any dirty records they’ll be included in the request. A “dirty record” is a record that’s
+  new, edited, or destroyed. You’ll also see the term “phantom record,” which is a new
+  record on the client side that hasn’t yet been synced with the server side.
+* Stores are not loaded automaticallyu by default (use either config's autoload = true or load() method)
