@@ -1,1 +1,2 @@
 * action sheets do not support scrolling by default. In cases where you need to present a particularly large set of items to the user use a picker
+* Ext.Msg is a singleton
