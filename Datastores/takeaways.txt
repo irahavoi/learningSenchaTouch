@@ -10,3 +10,6 @@
   new, edited, or destroyed. You’ll also see the term “phantom record,” which is a new
   record on the client side that hasn’t yet been synced with the server side.
 * Stores are not loaded automaticallyu by default (use either config's autoload = true or load() method)
+* XTemplate - emplate class that supports advanced templating functionality
+* New in Sencha Touch 2.1, Ext.dataview.List now supports infinite data.
+  List figures out how many rows can fit in the screen, adds some for a buffer, and reuses them on the fly as you’re scrolling. 
