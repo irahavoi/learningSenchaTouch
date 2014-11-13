@@ -15,7 +15,7 @@ Ext.application({
  				{
 				 xtype : 'list',
 				 scrollable : false,
-				 height: 100, 
+				 height: 500, 
 				 itemTpl : ''.concat(
  					'{name} ',
  					'<a href="http://www.twitter.com/{twitter}" target="_blank">',
@@ -28,12 +28,15 @@ Ext.application({
 					 { name : 'Nadia', twitter : 'egocenter' },
 					 { name : 'Someone else', twitter : 'unknown' }
 	 				]
-	 			}
- 			},
- 		    {
- 				xtype : 'button', 
- 				text : 'Load Next',
- 				ui : 'confirm'
+	 			},
+	 			items : [
+				 {
+				 xtype : 'button', 
+				 docked : 'bottom', 
+				 scrollDock : 'bottom', 
+				 text : 'Load Next',
+				 ui : 'confirm'
+				 }]
  			}]
 });
 	} 
