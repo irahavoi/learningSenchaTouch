@@ -24,7 +24,7 @@ Ext.application({
 	 			store : {
 	 				fields : ['name', 'twitter'],
 	 				data : [
-					 { name : 'Illia', twitter : 'elijahrium' },
+	 				 { name : 'Illia', twitter : 'elijahrium' },
 					 { name : 'Nadia', twitter : 'egocenter' },
 					 { name : 'Someone else', twitter : 'unknown' }
 	 				]

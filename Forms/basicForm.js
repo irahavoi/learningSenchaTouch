@@ -1,30 +1,30 @@
 
 /** global Ext */
 Ext.require([ 
- 'Ext.data.Model',
- 'Ext.data.Store',
- 'Ext.List',
- 'Ext.MessageBox'
-]);
+	'Ext.data.Model',
+	'Ext.data.Store',
+	'Ext.List',
+	'Ext.MessageBox'
+	]);
 
 Ext.application({ 
-	 launch : function() {
-	 	var myForm = Ext.create('Ext.form.FormPanel', { 
-		 fullscreen : true,
-		 items : [
+	launch : function() {
+		var myForm = Ext.create('Ext.form.FormPanel', { 
+			fullscreen : true,
+			items : [
 			{ 
 				xtype : 'textfield',
 				label : 'First',
-	 			name : 'firstName',
- 				placeHolder : 'Enter First Name Here',
- 			},
- 			{
- 				xtype : 'textfield',
+				name : 'firstName',
+				placeHolder : 'Enter First Name Here',
+			},
+			{
+				xtype : 'textfield',
 				label : 'Last',
 				name : 'lastName',
 				placeHolder : 'Enter Last Name Here'
- 			},
- 			{
+			},
+			{
 				xtype : 'emailfield',
 				label : 'Email',
 				value : 'youremail@yourcompany.com'
@@ -39,27 +39,27 @@ Ext.application({
 				label : 'Url',
 				value : 'http://www.senchatouchinaction.com'
 			},
- 			{
- 				xtype : 'selectfield',
+			{
+				xtype : 'selectfield',
 				label : 'Status',
 				name : 'inviteStatus',
 				placeholder : 'nothing',
 				options : [
-				 {
-				 	text : 'Undecided',
-				 	value : 'undecided'
-				 },
-				 {
-				 	text : 'Accepted',
-				 	value : 'accept'
-				 },
-				 {
-				 	text : 'Declined',
-				 	value : 'decline'
-				 }
+				{
+					text : 'Undecided',
+					value : 'undecided'
+				},
+				{
+					text : 'Accepted',
+					value : 'accept'
+				},
+				{
+					text : 'Declined',
+					value : 'decline'
+				}
 				]
- 			},
- 			{
+			},
+			{
 				xtype : 'textareafield',
 				label : 'Text Area',
 				maxRows : 5,
@@ -72,7 +72,7 @@ Ext.application({
 					year : 2011,
 					month : 2,
 					day : 23
-			 	}
+				}
 			},
 			{
 				xtype : 'spinnerfield',
@@ -84,19 +84,19 @@ Ext.application({
 				value : 9
 			},
 			{
-			 xtype : 'sliderfield',
-			 label : 'Slide me',
-			 minValue : 20,
-			 maxValue : 100,
-			 value : 50,
-			 increment : 5
+				xtype : 'sliderfield',
+				label : 'Slide me',
+				minValue : 20,
+				maxValue : 100,
+				value : 50,
+				increment : 5
 			},
 			{
-			 xtype : 'togglefield',
-			 label : 'Toggle Me',
-			 value : 1
+				xtype : 'togglefield',
+				label : 'Toggle Me',
+				value : 1
 			}	
- 		]	
-	});
+			]	
+		});
 } 
 });
