@@ -1,0 +1,1 @@
+* Getting location is async. So, you have to listen to locationupdate event.
