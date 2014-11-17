@@ -7,3 +7,7 @@
 	- Native packaging: wrap your app into a native packager for further distribution in Google Play or Apple App Store.
 	- Automation hooks with or without ant.
  * Generating app is as easy as : sencha generate app myApp (from the folder with sencha's sdk)
+ * With Sencha Touch device profiles you can get extremely granular
+   and create specific profiles for different devices and name them exactly how
+   you want to. For example, you could have one profile for iPhone4, another
+   for iPhone5, another for SamsungGS3 (Galaxy S3), and so forth.
