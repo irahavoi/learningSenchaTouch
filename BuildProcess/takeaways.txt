@@ -1,0 +1,9 @@
+ * Why use Sencha cmd:
+	- It is cross-platform
+	- Code-generation tools: concatenate/minify your app, generate code stubs for controllers, views, models, forms, profiles
+	- Good documentation
+	- Multiple build targets: testing, production, native builds.
+	- Integration with UglifyJS, Google closure compiler or YUI Compressor.
+	- Native packaging: wrap your app into a native packager for further distribution in Google Play or Apple App Store.
+	- Automation hooks with or without ant.
+ * Generating app is as easy as : sencha generate app myApp (from the folder with sencha's sdk)
