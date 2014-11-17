@@ -1,0 +1,3 @@
+* The Sencha Touch class system takes JavaScript’s prototypal inheritance to another
+  level, adding features like dependency injection, automatic setter and getter method
+  creation, statics, and mix-in support (multiple inheritance).
