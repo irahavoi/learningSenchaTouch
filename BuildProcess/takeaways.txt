@@ -11,3 +11,5 @@
    and create specific profiles for different devices and name them exactly how
    you want to. For example, you could have one profile for iPhone4, another
    for iPhone5, another for SamsungGS3 (Galaxy S3), and so forth.
+
+sencha web --port 8080 start <-- Starts a web server.
