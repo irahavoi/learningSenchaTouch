@@ -15,6 +15,6 @@ Ext.define('myApp.profile.Phone', {
 		//return Ext.os.is('Phone');
 	},
 	launch: function() {
-		Ext.create('App.view.phone.Main');
+		Ext.create('myApp.view.phone.Main');
 	}
 });
