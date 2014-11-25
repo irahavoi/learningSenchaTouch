@@ -22,10 +22,14 @@ Ext.application({
         // startup images go here
     },
     launch: function() {
+        console.log('launched!');
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('myApp.view.Main'));
+        // Initialize the main view
+        Ext.Viewport.add({
+            xtype : 'main'
+        });
     },
     onUpdated: function() {
         Ext.Msg.confirm(

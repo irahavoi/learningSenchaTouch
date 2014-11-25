@@ -1,7 +1,8 @@
 Ext.define('myApp.view.phone.Main', {
 	extend : 'myApp.view.Main',
 	requires : [
-	'Ext.layout.Card'
+	'Ext.layout.Card',
+         'myApp.view.ContactsList'
 	],
 	config : {
 		layout : 'card',
@@ -12,6 +13,7 @@ Ext.define('myApp.view.phone.Main', {
 		}
 	},
 	initialize : function() {
+		console.log('init phone view')
 		var me = this;
 		me.add({
 			xtype : 'contacts'

@@ -1,9 +1,9 @@
 Ext.define('myApp.store.Contacts', {
 	extend : 'Ext.data.Store',
 	alias : 'store.contacts',
-	requires : ['App.model.Contact'],
+	requires : ['myApp.model.Contact'],
 	config : {
-		model : 'App.model.Contact',
+		model : 'myApp.model.Contact',
 		data : [
 		{
 			id : 1,
