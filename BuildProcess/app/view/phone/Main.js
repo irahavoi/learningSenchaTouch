@@ -22,8 +22,9 @@ Ext.define('myApp.view.phone.Main', {
 			xtype : 'button',
 			text : 'Back',
 			ui : 'back',
-			hidden : true
+			hidden : false
 		});
+		console.log(me.down('toolbar'));
 		me.callParent();
 	},
 	onMainBackButtonTap : function(btn) {
