@@ -1,1 +1,11 @@
-This folder contains the controllers
+Ext.define('App.controller.Main', {
+extend: 'Ext.app.Controller',
+config : {
+refs : {
+},
+control : {
+},
+views : [
+]
+}
+});
