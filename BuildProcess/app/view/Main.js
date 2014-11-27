@@ -11,8 +11,5 @@ Ext.define('myApp.view.Main', {
     },
     setTitle : function(title) {
         this.down('toolbar').setTitle(title);
-    },
-    initialize: function(){
-    console.log('dddd');
-}
+    }
 });

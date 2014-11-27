@@ -9,13 +9,13 @@ Ext.define('myApp.store.Contacts', {
 			id : 1,
 			firstname : 'Illia',
 			lastname : 'Rahavoi',
-			phone : '394-953-4537'
+			phone : '204-869-1790'
 		},
 		{
 			id : 2,
 			firstname : 'Nadzeya',
 			lastname : 'Rahavaya',
-			phone : '357-642-3162'
+			phone : '204-869-1890'
 		}
 // More data in the downloadable example
 ]

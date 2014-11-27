@@ -2,7 +2,8 @@ Ext.define('myApp.view.phone.Main', {
 	extend : 'myApp.view.Main',
 	requires : [
 	'Ext.layout.Card',
-         'myApp.view.ContactsList'
+         'myApp.view.ContactsList',
+	 'myApp.view.ContactDetails'
 	],
 	config : {
 		layout : 'card',
@@ -22,7 +23,7 @@ Ext.define('myApp.view.phone.Main', {
 			xtype : 'button',
 			text : 'Back',
 			ui : 'back',
-			hidden : false
+			hidden : true
 		});
 		console.log(me.down('toolbar'));
 		me.callParent();
