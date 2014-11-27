@@ -25,6 +25,18 @@ Ext.define('myApp.controller.Main', {
         this.showContactDetails(record);
     },
 
+    persistContact : function() {
+    	var details = this.getDetails(),
+    	record = details.getRecord();
+    	if (! record) {
+    		return;
+    	}
+    	record.beginEdit();
+    	record.set(details.getValues());
+    	record.endEdit();
+    	record.commit();
+    },
+
     /**
      * Override for each profile
      */

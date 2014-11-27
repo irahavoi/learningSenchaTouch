@@ -42,7 +42,7 @@ Ext.define('myApp.controller.phone.Main', {
             main     = me.getMainView(),    // NEW
             contacts = main.down('contacts');
 
-        //me.persistContact();
+        me.persistContact();
 
         main.setTitle('Contacts');
         main.animateActiveItem(contacts, me.getAnims().previous);
