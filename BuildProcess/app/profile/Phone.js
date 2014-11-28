@@ -11,8 +11,7 @@ Ext.define('myApp.profile.Phone', {
 
 	//this method should test user's device for compatibiliity with this profile
 	isActive: function() {
-		return true; // remove when testing on devices
-		//return Ext.os.is('Phone');
+		return Ext.os.is('Phone');
 	},
 	launch: function() {
 		console.log('phone profile: create main view');
