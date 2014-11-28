@@ -667,7 +667,18 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "myApp.view.Main": []
+  "myApp.controller.Main": [],
+  "myApp.controller.phone.Main": [],
+  "myApp.controller.tablet.Main": [],
+  "myApp.model.Contact": [],
+  "myApp.profile.Phone": [],
+  "myApp.profile.Tablet": [],
+  "myApp.store.Contacts": [],
+  "myApp.view.ContactDetails": [],
+  "myApp.view.ContactsList": [],
+  "myApp.view.Main": [],
+  "myApp.view.phone.Main": [],
+  "myApp.view.tablet.Main": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1399,9 +1410,26 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "myApp.controller.Main": [],
+  "myApp.controller.phone.Main": [],
+  "myApp.controller.tablet.Main": [],
+  "myApp.model.Contact": [],
+  "myApp.profile.Phone": [],
+  "myApp.profile.Tablet": [],
+  "myApp.store.Contacts": [
+    "store.contacts"
+  ],
+  "myApp.view.ContactDetails": [
+    "widget.contactdetails"
+  ],
+  "myApp.view.ContactsList": [
+    "widget.contacts"
+  ],
   "myApp.view.Main": [
     "widget.main"
-  ]
+  ],
+  "myApp.view.phone.Main": [],
+  "myApp.view.tablet.Main": []
 });
 
 

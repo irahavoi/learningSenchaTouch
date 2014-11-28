@@ -11,7 +11,8 @@ Ext.application({
     'Ext.MessageBox'
     ],
     profiles :  [
-    'Phone'
+    'Phone',
+     'Tablet',
     ],
 
     icon: {

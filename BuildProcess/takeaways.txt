@@ -13,5 +13,5 @@
    for iPhone5, another for SamsungGS3 (Galaxy S3), and so forth.
 
 * sencha web --port 8080 start <-- Starts a web server.
-* Bootsraping your app:
+* sencha app build testing <-- builds the app and puts the result to build/testing
 	
