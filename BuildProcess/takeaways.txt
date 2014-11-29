@@ -14,4 +14,5 @@
 
 * sencha web --port 8080 start <-- Starts a web server.
 * sencha app build testing <-- builds the app and puts the result to build/testing
+* localStorage is available in the global scope
 	
