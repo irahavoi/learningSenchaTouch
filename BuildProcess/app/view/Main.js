@@ -6,7 +6,7 @@ Ext.define('myApp.view.Main', {
         items : {
             docked : 'top',
             xtype : 'toolbar',
-            title : 'Contacts'
+            title : 'My Contacts'
         }
     },
     setTitle : function(title) {
